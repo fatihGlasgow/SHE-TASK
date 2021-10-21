@@ -1,5 +1,6 @@
 package utilities;
 
+import io.cucumber.java.Scenario;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -16,7 +17,8 @@ import java.util.Random;
 import java.util.function.Function;
 
 public class ReusableMethods {
-    public static String getScreenshot(String name) throws IOException {
+
+    public static String getScreenshot(Scenario name) throws IOException {
         // naming the screenshot with the current date to avoid duplication
         String date = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         // TakesScreenshot is an interface of selenium that takes the screenshot
