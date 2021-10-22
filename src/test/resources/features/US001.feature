@@ -11,19 +11,16 @@ Feature:Add a new record and another record ,and then delete the first record
     And User hovers over and clicks the Air_Emissions
     When User clicks New_Record_button on the Air_Emissions page
     And User fills in the Sample_Date field with "10102020"
-    And User fills in the Description field with "FINAL00 first description should not be seen"
+    And User fills in the Description field with "Ready forGithub first description should not be seen"
     And User clicks Save&Close_button
-
-  Scenario: TC02-User should add another Record
+    And User is on the AIR_Emissions Page
     When User clicks New_Record_button on the Air_Emissions page
     And User fills in the Sample_Date field with "20022020"
-    And User fills in the Description field with "FINAL100 Second description seen"
+    And User fills in the Description field with "Ready forGithub Second description seen"
     And User clicks Save&Close_button
-
-      Scenario: TC03-User delete the first Record
-        When User clicks Manage_Record of the First Record on the Air_Emissions page
-        And  User selects and clicks the delete button
-        Then User verifies the First Record has been deleted
+    When User clicks Manage_Record of the First Record on the Air_Emissions page
+    And  User selects and clicks the delete button
+    Then User verifies the First Record has been deleted
 #        And User clicks Log_out button
 
 
