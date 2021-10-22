@@ -1,0 +1,323 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-22T08:41:53.256Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC01-User should add a new Record",
+        "description": "",
+        "id": "add-a-new-record-and-another-record--and-then-delete-the-first-record;tc01-user-should-add-a-new-record",
+        "after": [
+          {
+            "result": {
+              "duration": 514000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6654000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the application_login page with the LoginPage_URL",
+            "match": {
+              "location": "step_definitions.LoginPageStepDefinitions.user_is_on_the_application_loginPage_with_the_LoginPage_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the UserName on the login page",
+            "match": {
+              "location": "step_definitions.LoginPageStepDefinitions.user_enters_the_UserName_on_the_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the UserPassword on the login page",
+            "match": {
+              "location": "step_definitions.LoginPageStepDefinitions.user_enters_the_UserPassword_on_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19556000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks the Login_button on the login page",
+            "match": {
+              "location": "step_definitions.LoginPageStepDefinitions.user_clicks_the_login_button_on_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 443000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks the Modules_button on the Home page",
+            "match": {
+              "location": "step_definitions.HomePageStepDefinitions.user_clicks_the_modules_button_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User hovers over the Environment",
+            "match": {
+              "location": "step_definitions.HomePageStepDefinitions.user_hovers_over_the_environment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3518000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User hovers over and clicks the Air_Emissions",
+            "match": {
+              "location": "step_definitions.HomePageStepDefinitions.user_hovers_over_and_clicks_the_air_emissions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2089000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks New_Record_button on the Air_Emissions page",
+            "match": {
+              "location": "step_definitions.AirEmissionsPageStepDefinitions.user_clicks_new_record_button_on_the_air_emissions_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User fills in the Sample_Date field with \"10102020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10102020\"",
+                  "offset": 41
+                }
+              ],
+              "location": "step_definitions.AirEmissionsCreatePageStepDefinitions.user_fills_in_the_sample_date_field_with(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User fills in the Description field with \"The First SHE software description should not be seen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The First SHE software description should not be seen\"",
+                  "offset": 41
+                }
+              ],
+              "location": "step_definitions.AirEmissionsCreatePageStepDefinitions.user_fills_in_the_description_field_with(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2899000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks Save\u0026Close_button",
+            "match": {
+              "location": "step_definitions.AirEmissionsCreatePageStepDefinitions.user_clicks_save_close_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1995000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on the AIR_Emissions Page",
+            "match": {
+              "location": "step_definitions.AirEmissionsPageStepDefinitions.user_is_on_the_air_emissions_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2021000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks New_Record_button on the Air_Emissions page",
+            "match": {
+              "location": "step_definitions.AirEmissionsPageStepDefinitions.user_clicks_new_record_button_on_the_air_emissions_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User fills in the Sample_Date field with \"20022020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20022020\"",
+                  "offset": 41
+                }
+              ],
+              "location": "step_definitions.AirEmissionsCreatePageStepDefinitions.user_fills_in_the_sample_date_field_with(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User fills in the Description field with \"The Second SHE software description seen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The Second SHE software description seen\"",
+                  "offset": 41
+                }
+              ],
+              "location": "step_definitions.AirEmissionsCreatePageStepDefinitions.user_fills_in_the_description_field_with(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2615000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks Save\u0026Close_button",
+            "match": {
+              "location": "step_definitions.AirEmissionsCreatePageStepDefinitions.user_clicks_save_close_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1991000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks Manage_Record of the First Record on the Air_Emissions page",
+            "match": {
+              "location": "step_definitions.AirEmissionsPageStepDefinitions.user_clicks_manage_record_of_the_first_record_on_the_air_emissions_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2438000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User selects and clicks the delete button",
+            "match": {
+              "location": "step_definitions.AirEmissionsPageStepDefinitions.user_selects_and_clicks_the_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User verifies the First Record has been deleted",
+            "match": {
+              "location": "step_definitions.AirEmissionsPageStepDefinitions.user_verifies_the_first_record_has_been_deleted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1616000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks Log_out button",
+            "match": {
+              "location": "step_definitions.AirEmissionsPageStepDefinitions.user_clicks_log_out_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_001"
+          }
+        ]
+      }
+    ],
+    "name": "Add a new record and another record ,and then delete the first record",
+    "description": "",
+    "id": "add-a-new-record-and-another-record--and-then-delete-the-first-record",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US001.feature",
+    "tags": [
+      {
+        "name": "@US_001",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
